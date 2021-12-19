@@ -1,0 +1,58 @@
+body{  
+  margin: 0; 
+  background-color: rgb(224, 195, 205); 
+}
+.calendar-entries {
+    border-left-width: 4px;
+    border-left-style: solid;
+    margin: 3rem;
+    border-left-color: gray;
+    border-inline-start: 10px ;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:gray ;
+    margin: 3.5rem;
+}
+.videos{
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+   text-align: center;
+   font-family: 'Condiment', cursive; 
+   color:hotpink ;
+   font-size: 30px;
+}
+.img{
+    cursor: pointer;
+    position:absolute;
+    left:45%;
+    text-align: center; 
+    color: rgb(165, 37, 122);
+}
+
+@media screen and (max-width:850px){
+    .videos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+         }
+}
+a
+{text-decoration:none;
+ color:black;}
